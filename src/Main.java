@@ -49,7 +49,19 @@ public class Main {
 
         System.out.println("Ingresa un numero");
         int n1 = sc.nextInt();
-        int par =
+
+        System.out.println("Numeros pares del 1 al " + n1 + ":");
+        int i = 1;
+        while (i <= n1) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+            i++;
+        }
+
+        // Ejercicio 6 Bucle
+
+
 
     }
 }
